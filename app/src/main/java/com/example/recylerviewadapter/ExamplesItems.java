@@ -5,8 +5,8 @@ public class ExamplesItems {
     private String text;
 
     public ExamplesItems(int imageno,String text){
-        imageno=imageno;
-        text=text;
+        this.imageno=imageno;
+        this.text=text;
     }
 
     public int getImageno(){
